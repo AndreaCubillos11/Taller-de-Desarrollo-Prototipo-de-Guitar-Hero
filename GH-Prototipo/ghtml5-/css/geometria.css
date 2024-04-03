@@ -1,0 +1,7 @@
+.trapecio {
+    /* width: 250px; */
+    height: 150px;
+    border-right: 250px solid transparent;
+    border-left: 250px solid transparent;
+    border-bottom: var(--base-game-mastil) solid #428bca;
+}

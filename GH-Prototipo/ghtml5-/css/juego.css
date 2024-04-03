@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	display: grid;
+	grid-template-rows: 100px 1fr 40px;
+	height: 100vh;
+
+}
+
+#tab {
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    top: 35px;
+    left: 25px;
+}
+
+.col-md-12{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Opcional: para centrar verticalmente */
+}
+
+#contador {
+	font-size: 24px; /* Tamaño de la fuente */
+	color: #fff; /* Color del texto */
+	background-color: #333; /* Color de fondo */
+	padding: 10px; /* Espaciado interno */
+	border-radius: 5px; /* Bordes redondeados */
+	text-align: center; /* Alineación del texto */
+	width: 200px; /* Ancho del contador */
+	margin: 0 auto; /* Centrar el contador horizontalmente */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  }
+  
+.bgpractica {
+    background-image: url(../resources/gh3/stages/stage1.png);
+    background-size: cover;
+    background-position-y: -111px;
+}
+
+header {
+    display: none; /* Hide the header to prevent it from covering the background */
+}
+
+
+div.container {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.juego {
+    height: 100%;
+}
+
+.juego .contador {
+    background-color: green;
+    width: 20%;
+}
+
+#score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff9900;
+}
+
+.juego .juego-guitar {
+    position: relative;
+    width: 59%;
+    height: 100%;
+}
+
+#startButton,
+#pauseButton {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+div.juego div {
+    display: inline-block;
+}
+
+.juego-guitar>div {
+    display: block !important;
+}
+
+.hidden {
+    display: none !important;
+}

@@ -1,0 +1,90 @@
+
+.notas{
+	position: absolute;
+	z-index:2;
+}
+
+.nota{
+	position: absolute;
+	background-image: url('../resources/gh3/notes.png');
+	width: 41px;
+	height: 21px;
+}
+
+
+.n-green{
+    background-position-x: 0px;
+    background-position-y: -11px;
+    background-size: 213px;
+	top: 112px;
+    left: 258px;
+}
+
+
+.n-green.animated{
+	animation-name: ngreen;
+	animation-duration: var(--base-game-tempo-song);
+	animation-timing-function: linear;
+	/* animation-iteration-count: infinite; */
+}
+
+.n-red{
+	background-position-x: -42px;
+    background-position-y: -11px;
+    background-size: 213px;
+	top: 112px;
+    left: 300px;
+}
+
+.n-red.animated{
+	animation-name: nred;
+	animation-duration: var(--base-game-tempo-song);
+	animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+}
+
+.n-yellow{
+	background-position-x: -87px;
+    background-position-y: -11px;
+    background-size: 213px;
+	top: 112px;
+    left: 342px;
+}
+
+.n-yellow.animated{
+	animation-name: nyellow;
+	animation-duration: var(--base-game-tempo-song);
+	animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+}
+
+.n-blue{
+	background-position-x: -130px;
+    background-position-y: -11px;
+    background-size: 213px;
+	top: 112px;
+    left: 384px;
+}
+
+.n-blue.animated{
+	animation-name: nblue;
+	animation-duration: var(--base-game-tempo-song);
+	animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+}
+
+.n-orange{
+	background-position-x: -174px;
+    background-position-y: -11px;
+    background-size: 213px;
+	top: 112px;
+    left: 426px;
+}
+
+.n-orange.animated{
+	animation-name: norange;
+	animation-duration: var(--base-game-tempo-song);
+	animation-timing-function: linear;
+	/* animation-fill-mode: both; */
+	animation-iteration-count: infinite;
+}

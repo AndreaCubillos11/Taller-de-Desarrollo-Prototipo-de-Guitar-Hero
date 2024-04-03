@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrucciones</title>
+    <link rel="icon" href="../ghtml5-/assets/img/guitarra-instru.png" type="image/png"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    <style>
+        h2 {
+            font-family: 'Metal Mania', cursive;
+        }
+        #divertido {
+            font-family: 'Metal Mania', cursive;
+            font-size: 2em;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body style="background-color: black; color: white;">
+
+    <div class="container-fluid">
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-md-12">
+                <h1 id="titulo" style="text-align: center; margin-bottom: 20px; font-family: 'Metal Mania', cursive;">Instrucciones del juego Guitar Hero</h1>
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col-md-6">
+                        <video controls autoplay loop id="video" style="width: 100%; height: auto;">
+                            <source src="../ghtml5-/resources/gh3/video/Instru.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="texto" style="color: white;">
+                            <h2>Objetivo:</h2>
+                            <p>El objetivo del juego es obtener la mayor cantidad de puntos posible pulsando las teclas correspondientes a las notas de colores que se desplazan por la pantalla.</p>
+                            
+                            <br>
+
+                            <h2>¿Cómo jugar?</h2>
+                            <ol>
+                              <li>Teclas:</li>
+                              <ul class="keys">
+                                <li class="key green">A: Nota verde</li>
+                                <li class="key red">S: Nota roja</li>
+                                <li class="key yellow">J: Nota amarilla</li>
+                                <li class="key blue">K: Nota azul</li>
+                                <li class="key orange">L: Nota naranja</li>
+                              </ul>
+                              <p>Para que funcionen correctamente, las teclas deben estar en minúsculas.</p>
+                              <li>Las notas de colores se desplazarán por la pantalla desde la parte superior hacia la inferior.</li>
+                              <li>Cuando una nota de color llegue a uno de los círculos de la parte inferior de la pantalla, el jugador debe pulsar la tecla correspondiente al color de la nota.</li>
+                              <li>Si el jugador pulsa la tecla correcta en el momento adecuado, obtendrá un punto y sonará con su correspondiente acorde.</li>
+                              <li>Si el jugador pulsa la tecla incorrecta o no pulsa ninguna tecla, no obtendrá puntos.</li>
+                            </ol>
+                          
+                            <p id="divertido">¡Diviértete!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6 text-center">
+                        <a href="index.html" class="btn btn-danger btn-lg active" style="background-color: red; border-color: red;">Continuar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

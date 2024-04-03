@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="../ghtml5-/assets/img/icono-juego.png" type="image/png"> 
+	<link rel="stylesheet" href="./css/vars.css" />
+	<link rel="stylesheet" href="./css/mastil.css" />
+	<link rel="stylesheet" href="./css/notas.css" />
+	<link rel="stylesheet" href="./css/anis.css" />
+	<link rel="stylesheet" href="./css/effects.css" />
+	<link rel="stylesheet" href="./css/juego.css" />
+	<title>Play Guitar Hero </title>
+</head>
+
+<body class="bgpractica">
+	<header></header>
+
+	<section>
+		<div class="container juego">
+			<div id="contador">Puntuación: 0</div>
+			<div>
+				<button id="startButton">Iniciar</button>
+				<button id="pauseButton">Pausar</button>
+			</div>
+			<button class="resumeButton" style="display: none;">Reanudar</button>
+			<div class="juego-guitar">
+				<div class="notas">
+					<div class="nota n-green hidden"></div>
+					<div class="nota n-red hidden"></div>
+					<div class="nota n-yellow hidden"></div>
+					<div class="nota n-blue hidden"></div>
+					<div class="nota n-orange hidden"></div>
+				</div>
+				<div class="juego-mastil">
+
+					<div id="fgreen" class="flare_efects fgreen hidden"></div>
+					<div id="fred" class="flare_efects fred hidden"></div>
+					<div id="fyellow" class="flare_efects fyellow hidden"></div>
+					<div id="fblue" class="flare_efects fblue hidden"></div>
+					<div id="forange" class="flare_efects forange hidden"></div>
+
+					<div class="texture animated">
+						<div class="liners-mastil"></div>
+						<div class="matil-edges"></div>
+						<div class="hit-buttom-space">
+							<div class="hitter hit-button-green"></div>
+							<div class="hitter hit-button-red"></div>
+							<div class="hitter hit-button-yellow"></div>
+							<div class="hitter hit-button-blue"></div>
+							<div class="hitter hit-button-orange"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div id="pauseBox" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: black; color: black; padding: 10px; margin-top: 20px;">
+			<h2>Pausa</h2>
+			<button id="continueButton" style="background-color: red; color: white; padding: 10px;">Continuar</button>
+		</div>
+		
+	
+		<audio id="sonido1">
+			<source type="audio/wav" src="resources/gh3/Sonido/guitarra-cuerda-uno-.mp3">
+		</audio>
+		<audio id="sonido2">
+			<source type="audio/wav" src="resources/gh3/Sonido/guitarra-cuerda-dos-.mp3">
+		</audio>
+		<audio id="sonido3">
+			<source type="audio/wav" src="resources/gh3/Sonido/guitarra-cuerda-tres-.mp3">
+		</audio>
+		<audio id="sonido4">
+			<source type="audio/wav" src="resources/gh3/Sonido/guitarra-cuerda-cuatro-.mp3">
+		</audio>
+		<audio id="sonido5">
+			<source type="audio/wav" src="resources/gh3/Sonido/guitarra-cuerda-cinco-.mp3">
+		</audio>
+
+		<audio id="sonido6">
+			<source type="audio/wav" src= "resources/gh3/Sonido/guitarra-cuerda-seis-.mp3">
+		</audio>
+      
+	</section>
+	<!--<footer>
+		<h4>Esta es la zona de los creditos</h4>
+	</footer>-->
+	<script src="js/main.js"></script>
+	<script src="js/config.js"></script>
+	<!--<script src="js/effects.js"></script>-->
+	<script src="js/collider.js"></script>
+	<!--<script src="js/keymaps.js"></script>-->
+</body>
+
+</html>

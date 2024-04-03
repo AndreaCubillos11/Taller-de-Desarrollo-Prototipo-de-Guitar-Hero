@@ -1,0 +1,39 @@
+.flare_efects{
+    position: absolute;
+    width: 128px;
+    height: 256px;
+    background-image: url('../resources/gh3/hitflamesanimation2.png');
+    z-index:3;
+}
+
+.flare_efects.fgreen{
+    top:255px;
+    left: -114px;
+}
+
+.flare_efects.fred{
+    top:255px;
+    left: -9px;
+}
+
+.flare_efects.fyellow{
+    top:255px;
+    left: 97px;
+}
+
+.flare_efects.fblue{
+    top:255px;
+    left: 200px;
+}
+
+.flare_efects.forange{
+    top:255px;
+    left: 305px;
+}
+
+.flare_efects.animated{
+    animation-name: flamehit;
+    animation-duration: .2s;
+    animation-timing-function: step-start;
+    animation-iteration-count: infinite;
+}

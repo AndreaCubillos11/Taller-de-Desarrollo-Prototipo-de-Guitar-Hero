@@ -1,0 +1,177 @@
+
+.carril{
+	width: 100px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+
+.juego-mastil{
+    max-width: 314px;
+    min-width: 313px;
+	height: 559px;
+    perspective: 324px;
+    width: 43%;
+	margin-left: 204px;
+	z-index: 1;
+}
+
+.matil-edges{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+	background-image: url('../resources/gh3/side_bars.png');
+    background-size: 315px;
+}
+
+.juego-mastil>div.texture{
+	transform: rotateX(40deg);
+    /* background: brown; */
+    background-image: url('../resources/gh3/Necks/GH3_PC-Ripper.png');
+    background-size: 315px 504px;
+    border:1px solid black;
+	width: 100%;
+    height: 90%;
+    position: absolute;
+}
+
+
+div.texture.animated{
+    animation-name: neck;
+	animation-duration: var(--base-game-tempo-song);
+	animation-timing-function: linear;
+    animation-iteration-count: infinite;
+	animation-play-state: paused;
+}
+
+
+.hit-buttom-space{
+	position: relative;
+	top: 85%;
+	width: 100%;
+}
+
+.hitter{
+	width: 18%;
+	background-image: url("../resources/gh3/fretbuttons.png");
+	background-size: 280px;
+	margin-left: 3px;
+	height: 33px;
+}
+
+.liners-mastil{
+	position: absolute;
+	width: 100%;
+    height: 88%;
+	background-image: url("../resources/gh3/center_lines.png");
+	background-size: 316px;
+}
+
+
+/* verde */
+.hitter.hit-button-green{
+	background-position-x: 0px;
+	background-position-y: 0px;
+}
+
+.hitter.hit-button-green.hit{
+	background-position-x: 0px;
+	background-position-y: -34px;
+}
+
+.hitter.hit-button-green.hitted{
+	background-position-x: 0px;
+	background-position-y: -68px;
+}
+
+
+/* rojo */
+
+.hitter.hit-button-red{
+	background-position-x: -56px;
+	background-position-y: 0px;
+}
+
+.hitter.hit-button-red.hit{
+	background-position-x: -56px;
+	background-position-y: -34px;
+}
+
+.hitter.hit-button-red.hitted{
+	background-position-x: -56px;
+	background-position-y: -68px;
+}
+
+/* amarillo */
+.hitter.hit-button-yellow{
+	background-position-x: -112px;
+	background-position-y: 0px;
+}
+
+.hitter.hit-button-yellow.hit{
+	background-position-x: -112px;
+	background-position-y: -34px;
+}
+
+.hitter.hit-button-yellow.hitted{
+	background-position-x: -112px;
+	background-position-y: -68px;
+}
+
+/* azul */
+
+.hitter.hit-button-blue{
+	background-position-x: -167px;
+	background-position-y: 0px;
+}
+
+.hitter.hit-button-blue.hit{
+	background-position-x: -167px;
+	background-position-y: -34px;
+}
+
+.hitter.hit-button-blue.hitted{
+	background-position-x: -167px;
+	background-position-y: -68px;
+}
+
+/* naranja */
+
+.hitter.hit-button-orange{
+	background-position-x: -224px;
+	background-position-y: 0px;
+}
+
+.hitter.hit-button-orange.hit{
+	background-position-x: -224px;
+	background-position-y: -34px;
+}
+
+.hitter.hit-button-orange.hitted{
+	background-position-x: -224px;
+	background-position-y: -68px;
+}
+
+
+    #pauseBox h2 {
+        text-align: center;
+        font-family: 'metal mania', cursive; /* Asegúrate de tener esta fuente en tu proyecto */
+        color: #ff0000; /* Color rojo */
+    }
+
+	#continueButton {
+        display: block;
+        margin: 130px auto; /* Aumenta el valor superior para mover el botón más hacia abajo */
+    }
+
+	#pauseBox {
+        border: 10px solid black; /* Ajusta el color y el grosor del borde a tu gusto */
+    }
+
+	.paused {
+		animation-play-state: paused !important;
+	}
+.hidden {
+    display: none;
+}
+	

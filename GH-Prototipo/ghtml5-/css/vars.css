@@ -1,0 +1,5 @@
+:root{
+    --base-game-mastil: 390px;
+    --base-game-mastil-notes: calc(var(--base-game-mastil) / 5) ;
+    --base-game-tempo-song: 3s;
+}

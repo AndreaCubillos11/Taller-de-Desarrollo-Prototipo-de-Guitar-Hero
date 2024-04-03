@@ -1,0 +1,126 @@
+@keyframes ngreen {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: scale(1) translate(-151px,350px); 
+        width: calc(var(--base-game-mastil) / 5);
+        background-size: 420px;
+        height: 45px;
+    }
+}
+
+@keyframes nred {
+    0%{
+
+        transform: translateY(0);
+    }
+    100%{
+        transform: scale(1) translate(-89px,350px); 
+        width: calc(var(--base-game-mastil) / 5);
+        background-size: 420px;
+        background-position-x: -85px;
+        height: 45px;
+    }
+}
+
+
+@keyframes nyellow {
+    0%{
+
+        transform: translateY(0);
+    }
+    100%{
+        transform: scale(1) translate(-15px,350px); 
+        width: calc(var(--base-game-mastil) / 5);
+        background-size: 420px;
+        background-position-x: -174px;
+        height: 45px;
+    }
+}
+
+@keyframes nblue {
+    0%{
+
+        transform: translateY(0);
+    }
+    100%{
+        transform: scale(1) translate(47px,350px); 
+        width: calc(var(--base-game-mastil) / 5);
+        background-size: 420px;
+        background-position-x: -253px;
+        height: 45px;
+    }
+}
+
+@keyframes norange {
+    0%{
+
+        transform: translateY(0);
+    }
+    100%{
+        transform: scale(1) translate(133px,422px); 
+        width: calc(var(--base-game-mastil) / 5);
+        background-size: 420px;
+        background-position-x: -338px;
+        height: 49px;
+    }
+}
+
+
+@keyframes neck {
+    0%{
+        background-position-y: 0px;
+    }
+    100%{
+        background-position-y: 505px;
+    }
+}
+
+@keyframes flamehit{
+    0%{
+        background-position-x: 128px;
+    }
+    7%{
+        background-position-x: -128px;
+    }
+    14%{
+        background-position-x: -256px;
+    }
+    21%{
+        background-position-x: -384px;
+    }
+    28%{
+        background-position-x: -512px;
+    }
+    35%{
+        background-position-x: -640px;
+    }
+    42%{
+        background-position-x: -768px;
+    }
+    49%{
+        background-position-x: -896px;
+    }
+    56%{
+        background-position-x: -1024px;
+    }
+    63%{
+        background-position-x: -1152px;
+    }
+    70%{
+        background-position-x: -1280px;
+    }
+    77%{
+        background-position-x: -1408px;
+    }
+    84%{
+        background-position-x: -1536px;
+    }
+    91%{
+        background-position-x: -1664px;
+    }
+    100%{
+        background-position-x: -1664px;
+    }
+}
