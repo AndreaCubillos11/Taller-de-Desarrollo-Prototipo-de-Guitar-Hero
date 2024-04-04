@@ -179,6 +179,8 @@ c) Manejo de teclas presionadas y liberadas:
      - Por ejemplo, si se presiona la tecla correspondiente a la cuerda verde, se activa la función `collider()` para verificar si la nota está dentro del área de colisión con el botón verde.
      - Además, se agrega la clase `'hit'` al botón correspondiente.
 
+
+Desarrollado por: Andrea Cubillos e Ivonne Sierra.
    - La función `document.body.addEventListener('keyup', function (e))` detecta cuando el usuario suelta una tecla.
    - Dependiendo de la tecla liberada, se ejecuta una acción específica:
      - Por ejemplo, si se suelta la tecla correspondiente a la cuerda verde, se quita la clase `'hit'` del botón verde.
